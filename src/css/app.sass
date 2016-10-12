@@ -1,0 +1,23 @@
+@import "reset"
+
+// values
+$background-color: #FCFCFC
+$font-color: #333
+$link-color: #08F
+$border: 1px solid rgba(0, 0, 0, 0.2)
+
+@mixin base_css
+	background-color: $background-color
+	font-size: 16px
+	line-height: 1.5
+	color: $font-color
+	font-family: -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif
+	-webkit-text-size-adjust: 100%
+	box-sizing: border-box
+
+*
+	box-sizing: inherit
+html
+	@include base_css
+a
+	color: $font-color;

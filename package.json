@@ -1,0 +1,14 @@
+{
+  "name": "gulp_pug_template",
+  "version": "1.0.0",
+  "description": "simple gulp, pug and sass template",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}
